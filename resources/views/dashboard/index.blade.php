@@ -81,7 +81,9 @@
                             <hr class="dark horizontal">
                             <div class="d-flex ">
                                 <i class="material-icons text-sm my-auto me-1">schedule</i>
+                                @if($trk_rekomendasi)
                                 <p class="mb-0 text-sm"> Rekomendasi terakhir pada {{$trk_rekomendasi->tanggal}} </p>
+                                @endif
                             </div>
                         </div>
                     </div>
